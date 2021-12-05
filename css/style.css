@@ -6,6 +6,8 @@
 }
 body{
 	font-family: Catamaran, sans-serif;
+	max-width: 1957px;
+	width: 100%;
 }
 .home {
 	background: url('../image/home.jpg') center / cover no-repeat;
@@ -22,8 +24,7 @@ li {
 	list-style: none;
 }
 .container {
-    max-width: 1957px;
-	width: 100%;
+    width: 1380px;
     margin: 0 auto;
 }
 .header {
@@ -66,6 +67,11 @@ nav {
 }
 .menu__item {
 	line-height: 100px;
+}
+@media (max-width: 1400px) {
+	.container {
+		width: 1180px;
+	}
 }
 @media (max-width: 1200px) {
 	.container {
