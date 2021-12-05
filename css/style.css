@@ -404,7 +404,7 @@ h2 {
 .gallery.photo img {
 	max-width: 100%;
 }
-@media screen and (min-width: 1281px) and (max-width: 1919px)
+@media screen and (min-width: 1281px) and (max-width: 1920px)
 {
 	.gallery img {
 		width: 100%;
@@ -578,7 +578,7 @@ h2 {
 }
 
 .about {
-	background: url('../image/about.jpg') no-repeat 70%/cover;
+	background: url('../image/about.jpg') no-repeat 66%/cover;
 }
 .about h2
 {
@@ -686,7 +686,7 @@ ul.slick-dots .slick-active button {
 @media (max-width: 576px) {	
 	.carousel__inner {
 		width: 320px;
-}
+	}
 }
 footer {
 	height: 630px;
