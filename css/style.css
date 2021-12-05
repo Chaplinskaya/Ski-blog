@@ -314,7 +314,8 @@ h2 {
 	text-transform: uppercase;
 }
 .lessons {
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: bold;
 	line-height: 24px;
 	padding-bottom: 20px;
 	text-transform: uppercase;
@@ -346,6 +347,7 @@ h2 {
 	grid-column-gap: 0;
 	grid-row-gap: 0;
 	margin: 0 auto;
+	padding-top: 50px;
 }
 .gallery div:nth-child(1)
 {
@@ -397,7 +399,6 @@ h2 {
 	grid-row-end: 6;
 }
 .gallery div:nth-child(7) img {
-	-height: 410px;
 	width: 100%;
 }
 .gallery.photo img {
@@ -549,7 +550,14 @@ h2 {
 	margin: 0 auto;
 }
 .crew_card {
-	padding: 0;
+	padding-bottom: 30px;
+}
+.crew_card > p {
+	font-size: 14px;
+}
+.crew_card > div {
+	font-size: 18px;
+	line-height: 12px;
 }
 @media (max-width: 992px) {
 	.crew {
@@ -574,17 +582,16 @@ h2 {
 }
 .about h2
 {
-	font-size: 60px;
 	padding-top: 220px;
 	padding-bottom: 60px;
-	padding-left: 100px;
+	padding-left: 80px;
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-align: left;
 }
 .about p
 {
-	padding-left: 100px;
+	padding-left: 80px;
 	font-family: Catamaran;
 }
 .text_about {
@@ -615,7 +622,7 @@ h2 {
 		text-align: center;
 	}
 	.about p {
-		padding: 0 20px;
+		padding: 0;
 	}
 	.text_about {
 		width: 100%;
@@ -662,6 +669,11 @@ ul.slick-dots button {
 }
 ul.slick-dots .slick-active button {
 	background-color: #808080;
+}
+@media (max-width: 992px) {
+	.testimonials {
+		padding-top: 80px;
+	}
 }
 @media (max-width: 768px) {
 	.carousel__inner {
