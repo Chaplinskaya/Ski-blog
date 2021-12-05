@@ -1,1 +1,1 @@
-# Ski-blog adaptive landing page
+# Ski-blog
