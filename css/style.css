@@ -646,6 +646,9 @@ h2 {
     display: flex;
     justify-content: center;
 }
+ul.slick-dots button {
+	-background-color: red;
+}
 .carousel button {
     font-size: 0;
     border: none;
@@ -654,7 +657,10 @@ h2 {
 	border-radius: 100%;
     margin: 5px;
 }
-.slick-active button {
+ul.slick-dots button {
+	background-color: #c0c0c0;
+}
+ul.slick-dots .slick-active button {
 	background-color: #808080;
 }
 @media (max-width: 768px) {
